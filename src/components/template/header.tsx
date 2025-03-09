@@ -8,7 +8,9 @@ export default function Header() {
         <IconBrandReact stroke={1} />
         <span>Next.js Essencial</span>
       </div>
+      <div className="bg-purple-500 rounded-full p-2">
       <IconUser stroke={1} />
+      </div>
     </header>
   );
 }
